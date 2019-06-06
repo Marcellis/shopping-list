@@ -1,4 +1,4 @@
-package com.androidcourse.shoppinglistkotlin
+package com.androidcourse.shoppinglistkotlin.model
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo

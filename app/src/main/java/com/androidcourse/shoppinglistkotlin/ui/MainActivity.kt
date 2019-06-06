@@ -1,4 +1,4 @@
-package com.androidcourse.shoppinglistkotlin
+package com.androidcourse.shoppinglistkotlin.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +9,9 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.androidcourse.shoppinglistkotlin.model.Product
+import com.androidcourse.shoppinglistkotlin.database.ProductRepository
+import com.androidcourse.shoppinglistkotlin.R
 
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*

@@ -1,9 +1,11 @@
-package com.androidcourse.shoppinglistkotlin
+package com.androidcourse.shoppinglistkotlin.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.androidcourse.shoppinglistkotlin.model.Product
+import com.androidcourse.shoppinglistkotlin.R
 import kotlinx.android.synthetic.main.item_product.view.*
 
 class ProductAdapter(private val products: List<Product>) : RecyclerView.Adapter<ProductAdapter.ViewHolder>() {

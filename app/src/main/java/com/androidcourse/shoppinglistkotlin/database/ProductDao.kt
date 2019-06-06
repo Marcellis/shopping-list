@@ -1,9 +1,10 @@
-package com.androidcourse.shoppinglistkotlin
+package com.androidcourse.shoppinglistkotlin.database
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
+import com.androidcourse.shoppinglistkotlin.model.Product
 
 @Dao
 interface ProductDao {

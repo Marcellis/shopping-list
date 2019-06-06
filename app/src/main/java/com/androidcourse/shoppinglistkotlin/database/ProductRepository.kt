@@ -1,13 +1,15 @@
-package com.androidcourse.shoppinglistkotlin
+package com.androidcourse.shoppinglistkotlin.database
 
 import android.content.Context
+import com.androidcourse.shoppinglistkotlin.model.Product
 
 class ProductRepository(context: Context) {
 
     private val productDao: ProductDao
 
     init {
-        val database = ShoppingListRoomDatabase.getDatabase(context)
+        val database =
+            ShoppingListRoomDatabase.getDatabase(context)
         productDao = database!!.productDao()
     }
 
